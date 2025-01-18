@@ -24,7 +24,7 @@ function App() {
   return (
     <Box sx={{ height: "100%" }}>
       <Banner />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<ProductPage />} />
         </Routes>

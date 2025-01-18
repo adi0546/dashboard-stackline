@@ -8,7 +8,7 @@ interface ProductState {
 }
 
 export const fetchProduct = createAsyncThunk('/', async () => {
-  const response = await fetch('srcData.json').then((data) => data.json());
+  const response = await fetch(`${process.env.PUBLIC_URL}/srcData.json`).then((data) => data.json());
   return response;
 });
 
