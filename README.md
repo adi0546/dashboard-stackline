@@ -2,6 +2,7 @@
 
 This app was created as part of take home assessment sent out by stackline for full stack engineer 2 position.
 
+# Github pages URL: https://adi0546.github.io/dashboard-stackline/
 
 # Getting Started with Create React App
 
